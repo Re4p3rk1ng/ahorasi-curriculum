@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+
 body {
     margin: 0;
     padding: 20px;
@@ -20,4 +20,8 @@ ul{
     list-style: square;
     list-style-position: inside;
 }
+@media (max-width: 600px) {
+    h1 {
+        font-size: 22px;
+    }
 }
