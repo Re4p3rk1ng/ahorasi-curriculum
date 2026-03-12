@@ -1,27 +1,78 @@
-
-body {
-    margin: 0;
-    padding: 20px;
-    background-color: rgb(80, 0, 64);
-    text-align: center;
-    font-family: Arial;
+body{
+    margin:0;
+    padding:20px;
+    background-color:rgb(80,0,64);
+    text-align:center;
+    font-family:Arial;
 }
 
-h1 {
-    color: rgb(24, 177, 0);
+h1{
+    color:rgb(24,177,0);
 }
 
-.astra-foto{
-    max-width: 300px;
-    border-radius: 50%;
+h2{
+    color:rgb(238, 0, 0);
 }
 
 ul{
-    list-style: square;
-    list-style-position: inside;
+    list-style:square;
+    list-style-position:inside;
+    color:white;
 }
-@media (max-width: 600px) {
-    h1 {
-        font-size: 22px;
-    }
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+.astra-foto{
+    max-width:300px;
+    border-radius:50%;
+    display:block;
+    margin:auto;
+}
+
+.viper-foto{
+    max-width:200px;
+    border-radius:50%;
+    float:right;
+    margin:15px;
+}
+
+.omen-foto{
+    max-width:200px;
+    border-radius:50%;
+    float:left;
+    margin:15px;
+}
+
+
+.sage-foto{
+    max-width:200px;
+    border-radius:50%;
+    display:block;
+    margin:auto;
+}
+
+
+
+p{
+    color:white;
+}
+
+
+
+@media (max-width:600px){
+
+h1{
+    font-size:22px;
+}
+
+.viper-foto,
+.omen-foto{
+    float:none;
+    display:block;
+    margin:auto;
+}
+
 }
